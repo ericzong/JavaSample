@@ -5,7 +5,7 @@
 <suite name="Return Value Suite" allow-return-values="true">
   <test name="Return Value Test">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.ReturnValue" />
+      <class name="com.ericzong.java.sample.tools.testng.ReturnValue" />
     </classes>
   </test>
 </suite>

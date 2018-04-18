@@ -11,7 +11,7 @@
     </groups>
     
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.group.GroupPartial" />
+      <class name="com.ericzong.java.sample.tools.testng.group.GroupPartial" />
     </classes>
   </test>
 </suite>

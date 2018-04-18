@@ -4,7 +4,7 @@
 <suite name="Class">
   <test name="排序" preserve-order="false">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.OrderTest">
+      <class name="com.ericzong.java.sample.tools.testng.OrderTest">
         <methods>
           <include name="method3" />
           <include name="method1" />

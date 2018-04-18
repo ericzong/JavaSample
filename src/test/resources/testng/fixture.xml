@@ -11,7 +11,7 @@
     </groups>
   
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.FixtureTest" />
+      <class name="com.ericzong.java.sample.tools.testng.FixtureTest" />
     </classes>
   </test>
 </suite>

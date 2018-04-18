@@ -1,4 +1,4 @@
-package com.bwoil.test.smartester.demo.cglib;
+package com.ericzong.java.sample.tools.cglib;
 
 import java.lang.reflect.Method;
 

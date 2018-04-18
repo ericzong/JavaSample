@@ -1,4 +1,4 @@
-package com.bwoil.test.smartester.demo.testng.factory;
+package com.ericzong.java.sample.tools.testng.factory;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Factory;

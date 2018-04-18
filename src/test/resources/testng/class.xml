@@ -4,7 +4,7 @@
 <suite name="Class">
   <test name="类配置">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.ClassTest" />
+      <class name="com.ericzong.java.sample.tools.testng.ClassTest" />
     </classes>
   </test>
 </suite>

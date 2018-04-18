@@ -4,7 +4,7 @@
 <suite name="Pkg">
   <test name="包配置">
     <packages>
-      <package name="com.bwoil.test.smartester.demo.testng.pkg" />
+      <package name="com.ericzong.java.sample.tools.testng.pkg" />
     </packages>
   </test>
 </suite>

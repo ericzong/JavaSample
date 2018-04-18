@@ -4,7 +4,7 @@
 <suite name="factory">
   <test name="factory constructor">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.factory.ConstructorFactory" />
+      <class name="com.ericzong.java.sample.tools.testng.factory.ConstructorFactory" />
     </classes>
   </test>
 </suite>

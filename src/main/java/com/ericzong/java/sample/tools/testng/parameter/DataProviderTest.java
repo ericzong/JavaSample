@@ -1,4 +1,4 @@
-package com.bwoil.test.smartester.demo.testng.parameter;
+package com.ericzong.java.sample.tools.testng.parameter;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

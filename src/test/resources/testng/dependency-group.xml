@@ -11,7 +11,7 @@
 		</groups>
 
 		<classes>
-			<class name="com.bwoil.test.smartester.demo.testng.depend.DependencyGroup" />
+			<class name="com.ericzong.java.sample.tools.testng.depend.DependencyGroup" />
 		</classes>
 	</test>
 </suite>

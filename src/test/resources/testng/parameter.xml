@@ -4,7 +4,7 @@
 <suite name="Parameter">
   <test name="读取参数">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.parameter.ParameterTest">
+      <class name="com.ericzong.java.sample.tools.testng.parameter.ParameterTest">
         <parameter name="first-name" value="Zong" />
       </class>
     </classes>

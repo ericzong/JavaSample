@@ -4,7 +4,7 @@
 <suite name="Method">
 	<test name="方法配置">
 		<classes>
-			<class name="com.bwoil.test.smartester.demo.testng.MethodTest">
+			<class name="com.ericzong.java.sample.tools.testng.MethodTest">
 				<methods>
 					<include name="includeMethod" />
 					<exclude name="excludeMethod" />

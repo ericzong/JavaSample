@@ -4,7 +4,7 @@
 <suite name="Parameter">
   <test name="数据提供器获取方法">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.parameter.GetMethodInDataProvider" />
+      <class name="com.ericzong.java.sample.tools.testng.parameter.GetMethodInDataProvider" />
     </classes>
   </test>
 </suite>

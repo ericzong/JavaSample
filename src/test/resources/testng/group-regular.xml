@@ -10,7 +10,7 @@
     </groups>
   
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.group.GroupRegularExpression" />
+      <class name="com.ericzong.java.sample.tools.testng.group.GroupRegularExpression" />
     </classes>
   </test>
 </suite>

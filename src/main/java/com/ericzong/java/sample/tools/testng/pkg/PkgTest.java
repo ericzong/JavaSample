@@ -1,4 +1,4 @@
-package com.bwoil.test.smartester.demo.testng.pkg;
+package com.ericzong.java.sample.tools.testng.pkg;
 
 import org.testng.annotations.Test;
 

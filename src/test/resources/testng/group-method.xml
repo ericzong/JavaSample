@@ -4,7 +4,7 @@
 <suite name="Group">
   <test name="方法分组配置">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.group.GroupMethod">
+      <class name="com.ericzong.java.sample.tools.testng.group.GroupMethod">
         <methods>
           <include name=".*method.*" />
           <exclude name=".*group.*" />

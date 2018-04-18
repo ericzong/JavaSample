@@ -4,7 +4,7 @@
 <suite name="Dependency">
   <test name="依赖配置">
     <classes>
-      <class name="com.bwoil.test.smartester.demo.testng.depend.DependencyTest" />
+      <class name="com.ericzong.java.sample.tools.testng.depend.DependencyTest" />
     </classes>
   </test>
 </suite>
