@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Dependency">
+	<test name="依赖组">
+		<groups>
+			<dependencies>
+				<group depends-on="B C" name="A"></group>
+				<group depends-on="C" name="B"></group>
+			</dependencies>
+		</groups>
+
+		<classes>
+			<class name="com.bwoil.test.smartester.demo.testng.depend.DependencyGroup" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter">
+  <test name="数据提供器获取方法">
+    <classes>
+      <class name="com.bwoil.test.smartester.demo.testng.parameter.GetMethodInDataProvider" />
+    </classes>
+  </test>
+</suite>

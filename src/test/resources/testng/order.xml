@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Class">
+  <test name="排序" preserve-order="false">
+    <classes>
+      <class name="com.bwoil.test.smartester.demo.testng.OrderTest">
+        <methods>
+          <include name="method3" />
+          <include name="method1" />
+          <include name="method2" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

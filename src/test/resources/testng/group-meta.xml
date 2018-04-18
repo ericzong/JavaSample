@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Group">
+  <test name="元分组配置">
+    <groups>
+      <define name="test">
+        <include name="ui" />
+        <include name="function" />
+      </define>
+      
+      <define name="all">
+        <include name="check" />
+        <include name="test" />
+      </define>
+      
+      <run>
+        <include name="all" />
+      </run>
+    </groups>
+    
+    <classes>
+      <class name="com.bwoil.test.smartester.demo.testng.group.GroupMeta" />
+    </classes>
+  </test>
+</suite>

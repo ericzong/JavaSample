@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Group">
+  <test name="分组配置">
+    <groups>
+      <run>
+        <exclude name="group1" />
+        <include name="group2" />
+      </run>
+    </groups>
+  
+    <classes>
+      <class name="com.bwoil.test.smartester.demo.testng.group.GroupTest" />
+    </classes>
+  </test>
+</suite>

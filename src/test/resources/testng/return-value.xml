@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- set allow-return-values="true", or test that return a value will be ignored -->
+<suite name="Return Value Suite" allow-return-values="true">
+  <test name="Return Value Test">
+    <classes>
+      <class name="com.bwoil.test.smartester.demo.testng.ReturnValue" />
+    </classes>
+  </test>
+</suite>

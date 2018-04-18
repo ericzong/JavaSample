@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Group">
+  <test name="正则表达式分组配置">
+    <groups>
+      <run>
+        <exclude name="group1.*" />
+      </run>
+    </groups>
+  
+    <classes>
+      <class name="com.bwoil.test.smartester.demo.testng.group.GroupRegularExpression" />
+    </classes>
+  </test>
+</suite>

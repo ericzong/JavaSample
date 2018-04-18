@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Method">
+	<test name="方法配置">
+		<classes>
+			<class name="com.bwoil.test.smartester.demo.testng.MethodTest">
+				<methods>
+					<include name="includeMethod" />
+					<exclude name="excludeMethod" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

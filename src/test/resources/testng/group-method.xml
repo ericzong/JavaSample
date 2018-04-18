@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Group">
+  <test name="方法分组配置">
+    <classes>
+      <class name="com.bwoil.test.smartester.demo.testng.group.GroupMethod">
+        <methods>
+          <include name=".*method.*" />
+          <exclude name=".*group.*" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
