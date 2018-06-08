@@ -1,12 +1,9 @@
 package com.ericzong.java.sample.tools.fastjson;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.List;
-import java.util.Map;
+import com.alibaba.fastjson.JSON;
 
 public class FastJsonTest {
     public static final String DEMO_JSON = "{\n" +

@@ -17,12 +17,12 @@ public class OptionalTest {
 
     @Test(expectedExceptions = {NullPointerException.class})
     public void testOf() {
-        Optional<Object> opt = Optional.of(null);
+        Optional.of(null);
     }
 
     @Test
     public void testOfNullabel() {
-        Optional<Object> opt = Optional.ofNullable(null);
+        Optional.ofNullable(null);
     }
 
     @Test
