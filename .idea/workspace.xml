@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/SwitchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/VoidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,45 +16,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1891044269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="1662" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="1662" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="19" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="19" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,6 +82,9 @@
     <findStrings>
       <find>parseObject</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\zonglu\workspace\git\mine\JavaSample\src\main\java</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,6 +126,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/fastjson/FastJsonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/ClassNameTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/VoldTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/VoidTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/BreakContinue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/BreakContinueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/SwitchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java" />
       </list>
     </option>
   </component>
@@ -127,8 +154,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="632" />
-    <option name="y" value="22" />
+    <option name="x" value="676" />
+    <option name="y" value="106" />
     <option name="width" value="1578" />
     <option name="height" value="1040" />
   </component>
@@ -141,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,66 +208,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="syntax" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="SearchEverywhereHistoryKey" value="parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540979937658" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3080292" />
-    <property name="SearchEverywhereHistoryKey" value="parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -267,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ClassNameTest">
+  <component name="RunManager" selected="TestNG.BreakContinueTest.testContinueFor">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -302,16 +288,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassNameTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BreakContinueTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.api.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.ClassNameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.BreakContinueTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -319,34 +305,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastJsonTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BreakContinueTest.testBreakFor" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.tools.fastjson.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools.fastjson" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.fastjson.FastJsonTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FastJsonTest.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.tools.fastjson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools.fastjson" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.fastjson.FastJsonTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.BreakContinueTest" />
+      <option name="METHOD_NAME" value="testBreakFor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -355,17 +324,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogBackTest.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BreakContinueTest.testContinueFor" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.tools.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.LogBackTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.BreakContinueTest" />
+      <option name="METHOD_NAME" value="testContinueFor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -374,16 +343,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwitchTest.testFallThrough" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.api.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.OptionalTest" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.SwitchTest" />
+      <option name="METHOD_NAME" value="testFallThrough" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchTest.testVarInBlock" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.SwitchTest" />
+      <option name="METHOD_NAME" value="testVarInBlock" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -409,19 +399,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.LogBackTest.test" />
-      <item itemvalue="TestNG.OptionalTest" />
-      <item itemvalue="TestNG.FastJsonTest.test" />
-      <item itemvalue="TestNG.FastJsonTest" />
-      <item itemvalue="TestNG.ClassNameTest" />
+      <item itemvalue="TestNG.BreakContinueTest" />
+      <item itemvalue="TestNG.BreakContinueTest.testContinueFor" />
+      <item itemvalue="TestNG.SwitchTest.testFallThrough" />
+      <item itemvalue="TestNG.SwitchTest.testVarInBlock" />
+      <item itemvalue="TestNG.BreakContinueTest.testBreakFor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ClassNameTest" />
-        <item itemvalue="TestNG.FastJsonTest" />
-        <item itemvalue="TestNG.FastJsonTest.test" />
-        <item itemvalue="TestNG.OptionalTest" />
-        <item itemvalue="TestNG.LogBackTest.test" />
+        <item itemvalue="TestNG.BreakContinueTest.testContinueFor" />
+        <item itemvalue="TestNG.BreakContinueTest.testBreakFor" />
+        <item itemvalue="TestNG.SwitchTest.testFallThrough" />
+        <item itemvalue="TestNG.SwitchTest.testVarInBlock" />
+        <item itemvalue="TestNG.BreakContinueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -449,48 +439,49 @@
       <workItem from="1533708708178" duration="2332000" />
       <workItem from="1539660103974" duration="675000" />
       <workItem from="1539676272974" duration="658000" />
+      <workItem from="1540885699874" duration="21556000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassNameTest - 2018.08.08 at 10h 22m 36s.xml">
-      <configuration name="ClassNameTest" configurationId="TestNG" />
+    <history-entry file="BreakContinueTest_testContinueFor - 2018.10.31 at 14h 56m 17s.xml">
+      <configuration name="BreakContinueTest.testContinueFor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClassNameTest - 2018.08.08 at 10h 25m 57s.xml">
-      <configuration name="ClassNameTest" configurationId="TestNG" />
+    <history-entry file="BreakContinueTest - 2018.10.31 at 14h 56m 22s.xml">
+      <configuration name="BreakContinueTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClassNameTest - 2018.08.08 at 11h 34m 44s.xml">
-      <configuration name="ClassNameTest" configurationId="TestNG" />
+    <history-entry file="SwitchTest_testFallThrough - 2018.10.31 at 15h 12m 34s.xml">
+      <configuration name="SwitchTest.testFallThrough" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClassNameTest - 2018.08.08 at 11h 35m 18s.xml">
-      <configuration name="ClassNameTest" configurationId="TestNG" />
+    <history-entry file="SwitchTest_testFallThrough - 2018.10.31 at 15h 12m 46s.xml">
+      <configuration name="SwitchTest.testFallThrough" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FastJsonTest - 2018.05.09 at 18h 50m 24s.xml">
-      <configuration name="FastJsonTest" configurationId="TestNG" />
+    <history-entry file="SwitchTest_testVarInBlock - 2018.10.31 at 15h 56m 16s.xml">
+      <configuration name="SwitchTest.testVarInBlock" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FastJsonTest - 2018.05.09 at 18h 51m 09s.xml">
-      <configuration name="FastJsonTest" configurationId="TestNG" />
+    <history-entry file="SwitchTest_testVarInBlock - 2018.10.31 at 15h 56m 45s.xml">
+      <configuration name="SwitchTest.testVarInBlock" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FastJsonTest - 2018.05.09 at 18h 51m 18s.xml">
-      <configuration name="FastJsonTest" configurationId="TestNG" />
+    <history-entry file="SwitchTest_testVarInBlock - 2018.10.31 at 15h 57m 26s.xml">
+      <configuration name="SwitchTest.testVarInBlock" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FastJsonTest - 2018.05.09 at 18h 52m 36s.xml">
-      <configuration name="FastJsonTest" configurationId="TestNG" />
+    <history-entry file="SwitchTest_testFallThrough - 2018.10.31 at 17h 17m 03s.xml">
+      <configuration name="SwitchTest.testFallThrough" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClassNameTest - 2018.08.08 at 15h 30m 40s.xml">
-      <configuration name="ClassNameTest" configurationId="TestNG" />
+    <history-entry file="BreakContinueTest_testBreakFor - 2018.10.31 at 17h 48m 11s.xml">
+      <configuration name="BreakContinueTest.testBreakFor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClassNameTest - 2018.08.08 at 15h 31m 15s.xml">
-      <configuration name="ClassNameTest" configurationId="TestNG" />
+    <history-entry file="BreakContinueTest_testContinueFor - 2018.10.31 at 17h 54m 58s.xml">
+      <configuration name="BreakContinueTest.testContinueFor" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30167000" />
+    <option name="totallyTimeSpent" value="51723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -500,14 +491,14 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3192436" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.36151278" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39599556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3192436" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32973504" />
       <window_info anchor="bottom" id="运行" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32938388" />
       <window_info anchor="bottom" id="调试" order="12" />
@@ -557,22 +548,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/name/ShadowClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/generic/GenericOverride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/ClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/FixtureTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -786,20 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/LogBackTest.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="265" column="28" lean-forward="true" selection-start-line="265" selection-start-column="28" selection-end-line="265" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Supplier.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Optional.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1-sources.jar!/org/testng/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -828,23 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/OptionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/ClassNameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/cglib/ProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -859,17 +805,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/WatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/OptionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/ClassNameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/generic/GenericOverride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/VoidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/SwitchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -905,7 +899,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3080292" />
               </list>
             </option>
           </splitter-proportions>
@@ -913,7 +907,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>JavaSE-1.8</last-edited>
+          <last-edited>Java 11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -930,7 +924,6 @@
             <option name="proportions">
               <list>
                 <option value="0.3080292" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
