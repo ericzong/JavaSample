@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/SwitchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/VoidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DefaultPkgClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,34 +22,41 @@
     <session id="1891044269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1662" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="2702" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1662" />
+          <entry key="JAVA" value="2702" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="java" value="33" />
+          <entry key="project" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="Eclipse" value="1" />
+          <entry key="JAVA" value="33" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -60,10 +65,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -132,6 +137,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/BreakContinueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/SwitchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StaticTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DefaultClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DefaultPkgClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" />
       </list>
     </option>
   </component>
@@ -153,9 +163,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="y" value="106" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="266" />
+    <option name="y" value="107" />
     <option name="width" value="1578" />
     <option name="height" value="1040" />
   </component>
@@ -168,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +225,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -222,7 +232,7 @@
     <property name="SearchEverywhereHistoryKey" value="parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540979937658" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541585443569" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -232,6 +242,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ericzong.java.sample.tools.testng" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\main\resources" />
@@ -253,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BreakContinueTest.testContinueFor">
+  <component name="RunManager" selected="Application.StaticTest">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -282,30 +295,26 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.StaticTest" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreakContinueTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.BreakContinueTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BreakContinueTest.testBreakFor" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryResourceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -314,8 +323,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.BreakContinueTest" />
-      <option name="METHOD_NAME" value="testBreakFor" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryResourceTest.testOld" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
+      <option name="METHOD_NAME" value="testOld" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -324,7 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreakContinueTest.testContinueFor" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryResourceTest.testOrdinaryTry" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -333,8 +359,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.BreakContinueTest" />
-      <option name="METHOD_NAME" value="testContinueFor" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
+      <option name="METHOD_NAME" value="testOrdinaryTry" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -343,7 +369,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTest.testFallThrough" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryResourceTest.testTwr" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -352,27 +378,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.SwitchTest" />
-      <option name="METHOD_NAME" value="testFallThrough" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwitchTest.testVarInBlock" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.SwitchTest" />
-      <option name="METHOD_NAME" value="testVarInBlock" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
+      <option name="METHOD_NAME" value="testTwr" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -399,19 +406,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.BreakContinueTest" />
-      <item itemvalue="TestNG.BreakContinueTest.testContinueFor" />
-      <item itemvalue="TestNG.SwitchTest.testFallThrough" />
-      <item itemvalue="TestNG.SwitchTest.testVarInBlock" />
-      <item itemvalue="TestNG.BreakContinueTest.testBreakFor" />
+      <item itemvalue="TestNG.TryResourceTest.testOld" />
+      <item itemvalue="TestNG.TryResourceTest.testOrdinaryTry" />
+      <item itemvalue="TestNG.TryResourceTest.testTwr" />
+      <item itemvalue="TestNG.TryResourceTest" />
+      <item itemvalue="Application.StaticTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BreakContinueTest.testContinueFor" />
-        <item itemvalue="TestNG.BreakContinueTest.testBreakFor" />
-        <item itemvalue="TestNG.SwitchTest.testFallThrough" />
-        <item itemvalue="TestNG.SwitchTest.testVarInBlock" />
-        <item itemvalue="TestNG.BreakContinueTest" />
+        <item itemvalue="Application.StaticTest" />
+        <item itemvalue="TestNG.TryResourceTest.testTwr" />
+        <item itemvalue="TestNG.TryResourceTest" />
+        <item itemvalue="TestNG.TryResourceTest.testOrdinaryTry" />
+        <item itemvalue="TestNG.TryResourceTest.testOld" />
       </list>
     </recent_temporary>
   </component>
@@ -440,48 +447,52 @@
       <workItem from="1539660103974" duration="675000" />
       <workItem from="1539676272974" duration="658000" />
       <workItem from="1540885699874" duration="21556000" />
+      <workItem from="1541399142913" duration="4762000" />
+      <workItem from="1541581446043" duration="2622000" />
+      <workItem from="1541585749073" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BreakContinueTest_testContinueFor - 2018.10.31 at 14h 56m 17s.xml">
-      <configuration name="BreakContinueTest.testContinueFor" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 56m 32s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BreakContinueTest - 2018.10.31 at 14h 56m 22s.xml">
-      <configuration name="BreakContinueTest" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 57m 18s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SwitchTest_testFallThrough - 2018.10.31 at 15h 12m 34s.xml">
-      <configuration name="SwitchTest.testFallThrough" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 57m 48s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SwitchTest_testFallThrough - 2018.10.31 at 15h 12m 46s.xml">
-      <configuration name="SwitchTest.testFallThrough" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 57m 58s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SwitchTest_testVarInBlock - 2018.10.31 at 15h 56m 16s.xml">
-      <configuration name="SwitchTest.testVarInBlock" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 58m 04s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SwitchTest_testVarInBlock - 2018.10.31 at 15h 56m 45s.xml">
-      <configuration name="SwitchTest.testVarInBlock" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 58m 15s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SwitchTest_testVarInBlock - 2018.10.31 at 15h 57m 26s.xml">
-      <configuration name="SwitchTest.testVarInBlock" configurationId="TestNG" />
+    <history-entry file="TryResourceTest - 2018.11.05 at 15h 59m 00s.xml">
+      <configuration name="TryResourceTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SwitchTest_testFallThrough - 2018.10.31 at 17h 17m 03s.xml">
-      <configuration name="SwitchTest.testFallThrough" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 16h 07m 47s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BreakContinueTest_testBreakFor - 2018.10.31 at 17h 48m 11s.xml">
-      <configuration name="BreakContinueTest.testBreakFor" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 16h 08m 12s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BreakContinueTest_testContinueFor - 2018.10.31 at 17h 54m 58s.xml">
-      <configuration name="BreakContinueTest.testContinueFor" configurationId="TestNG" />
+    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 16h 08m 33s.xml">
+      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51723000" />
+    <option name="totallyTimeSpent" value="59333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="266" y="107" width="1578" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2483531" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -491,8 +502,8 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.36151278" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39599556" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.40996602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39548576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -547,52 +558,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/FixtureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/MethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/ReportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/ReturnValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/TestNGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/pkg/PkgTest2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/pkg/PkgTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -823,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,6 +825,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="580" selection-start-line="580" selection-end-line="580" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="1055" column="42" selection-start-line="1055" selection-start-column="42" selection-end-line="1055" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/SwitchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -860,10 +866,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/BreakContinueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaticTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DefaultPkgClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
