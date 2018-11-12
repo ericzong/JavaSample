@@ -1,4 +1,4 @@
-package com.ericzong.java.sample.generic;
+package com.ericzong.java.sample.syntax;
 
 /**
  * 与泛型相关的方法覆盖

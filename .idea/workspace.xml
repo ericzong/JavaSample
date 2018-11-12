@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DefaultPkgClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/IntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/generic/GenericOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/GenericOverride.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,33 +24,33 @@
     <session id="1891044269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="2702" />
+          <entry key="java" value="4200" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2702" />
+          <entry key="JAVA" value="4200" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="33" />
+          <entry key="java" value="54" />
           <entry key="project" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -56,24 +58,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="54" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,6 +78,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>parseObject</find>
+      <find>getFD</find>
     </findStrings>
     <dirStrings>
       <dir>E:\zonglu\workspace\git\mine\JavaSample\src\main\java</dir>
@@ -93,6 +86,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="This Class" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,6 +138,8 @@
         <option value="$PROJECT_DIR$/src/main/java/DefaultClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/DefaultPkgClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/IntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
       </list>
     </option>
   </component>
@@ -163,11 +161,116 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="266" />
-    <option name="y" value="107" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="185" />
+    <option name="y" value="364" />
     <option name="width" value="1578" />
     <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>FinalizationJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Syntactic ClarificationScala</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,25 +321,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="syntax" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
+    <property name="SearchEverywhereHistoryKey" value="FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541585443569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542014949697" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3080292" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -266,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticTest">
+  <component name="RunManager" selected="TestNG.FileChannelTest">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -295,35 +399,22 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.StaticTest" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryResourceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileChannelTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.api.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api.io" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.io.FileChannelTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -331,17 +422,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryResourceTest.testOld" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileChannelTest.testCreate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.api.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
-      <option name="METHOD_NAME" value="testOld" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api.io" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.io.FileChannelTest" />
+      <option name="METHOD_NAME" value="testCreate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -350,7 +441,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryResourceTest.testOrdinaryTry" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -359,9 +450,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
-      <option name="METHOD_NAME" value="testOrdinaryTry" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.IntegerTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -369,7 +458,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryResourceTest.testTwr" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegerTest.testCache" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -377,11 +466,47 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.TryResourceTest" />
-      <option name="METHOD_NAME" value="testTwr" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.IntegerTest" />
+      <option name="METHOD_NAME" value="testCache" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -client -Djava.lang.Integer.IntegerCache.high=200" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerTest.testModifyCache" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.IntegerTest" />
+      <option name="METHOD_NAME" value="testModifyCache" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -406,19 +531,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TryResourceTest.testOld" />
-      <item itemvalue="TestNG.TryResourceTest.testOrdinaryTry" />
-      <item itemvalue="TestNG.TryResourceTest.testTwr" />
-      <item itemvalue="TestNG.TryResourceTest" />
-      <item itemvalue="Application.StaticTest" />
+      <item itemvalue="TestNG.IntegerTest" />
+      <item itemvalue="TestNG.IntegerTest.testCache" />
+      <item itemvalue="TestNG.IntegerTest.testModifyCache" />
+      <item itemvalue="TestNG.FileChannelTest.testCreate" />
+      <item itemvalue="TestNG.FileChannelTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticTest" />
-        <item itemvalue="TestNG.TryResourceTest.testTwr" />
-        <item itemvalue="TestNG.TryResourceTest" />
-        <item itemvalue="TestNG.TryResourceTest.testOrdinaryTry" />
-        <item itemvalue="TestNG.TryResourceTest.testOld" />
+        <item itemvalue="TestNG.FileChannelTest" />
+        <item itemvalue="TestNG.FileChannelTest.testCreate" />
+        <item itemvalue="TestNG.IntegerTest.testModifyCache" />
+        <item itemvalue="TestNG.IntegerTest.testCache" />
+        <item itemvalue="TestNG.IntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -450,49 +575,49 @@
       <workItem from="1541399142913" duration="4762000" />
       <workItem from="1541581446043" duration="2622000" />
       <workItem from="1541585749073" duration="226000" />
+      <workItem from="1541991218588" duration="10587000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 56m 32s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest_testCreate - 2018.11.12 at 16h 55m 00s.xml">
+      <configuration name="FileChannelTest.testCreate" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 57m 18s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest_testCreate - 2018.11.12 at 16h 58m 46s.xml">
+      <configuration name="FileChannelTest.testCreate" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 57m 48s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 16h 59m 03s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 57m 58s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 17h 00m 00s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 58m 04s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 17h 00m 44s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 15h 58m 15s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 17h 02m 41s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest - 2018.11.05 at 15h 59m 00s.xml">
-      <configuration name="TryResourceTest" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 17h 04m 15s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 16h 07m 47s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 17h 04m 43s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 16h 08m 12s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 17h 05m 05s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TryResourceTest_testTwr - 2018.11.05 at 16h 08m 33s.xml">
-      <configuration name="TryResourceTest.testTwr" configurationId="TestNG" />
+    <history-entry file="FileChannelTest - 2018.11.12 at 17h 05m 46s.xml">
+      <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59333000" />
+    <option name="totallyTimeSpent" value="69920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="266" y="107" width="1578" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2483531" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -502,21 +627,21 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.40996602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35604605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39548576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3192436" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32973504" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289183" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3289183" />
       <window_info anchor="bottom" id="运行" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32938388" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24967062" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24967062" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946696" />
       <window_info anchor="right" id="控制板" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -570,76 +695,11 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/pkg/PkgTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/class.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/fixture.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/method.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/order.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/pkg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/return-value.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/parameter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/parameter/DataProviderStatic.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/parameter/ParameterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/group/GroupPartial.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/group/GroupRegularExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -804,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/generic/GenericOverride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/VoidTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -839,16 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -871,17 +914,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="35" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="35" />
-          <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="95">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/GenericOverride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/net/DatagramSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="28" />
+          <folding>
+            <element signature="e#9433#9434#0" expanded="true" />
+            <element signature="e#9458#9459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/nio/channels/FileLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="292" column="7" lean-forward="true" selection-start-line="292" selection-start-column="7" selection-end-line="292" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="1061" column="20" lean-forward="true" selection-start-line="1061" selection-start-column="17" selection-end-line="1061" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/IntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/sun/nio/ch/FileChannelImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="440" column="34" lean-forward="true" selection-start-line="440" selection-start-column="34" selection-end-line="440" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/DataOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="157" column="10" selection-start-line="157" selection-start-column="10" selection-end-line="157" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,7 +1092,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>JavaSE-1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
