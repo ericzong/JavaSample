@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/IntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/generic/GenericOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/GenericOverride.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,33 +21,36 @@
     <session id="1891044269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="4200" />
+          <entry key="java" value="4976" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4200" />
+          <entry key="JAVA" value="4976" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="54" />
+          <entry key="java" value="61" />
           <entry key="project" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -58,14 +58,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="61" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,12 +79,14 @@
     <findStrings>
       <find>parseObject</find>
       <find>getFD</find>
+      <find>out</find>
     </findStrings>
     <dirStrings>
       <dir>E:\zonglu\workspace\git\mine\JavaSample\src\main\java</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
@@ -140,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/IntegerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java" />
       </list>
     </option>
   </component>
@@ -152,7 +155,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/program/apache-maven/apache-maven-3.5.4" />
+        <option name="mavenHome" value="D:/program/scoop/apps/maven/current" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -281,6 +284,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,27 +326,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="syntax" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542014949697" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542362113804" />
+    <property name="last_opened_file_path" value="D:/program/scoop/apps/git/current/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3080292" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -370,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FileChannelTest">
+  <component name="RunManager" selected="TestNG.FinalTest">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -441,7 +444,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FinalTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -450,7 +453,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.IntegerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.FinalTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -531,19 +534,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.IntegerTest" />
       <item itemvalue="TestNG.IntegerTest.testCache" />
       <item itemvalue="TestNG.IntegerTest.testModifyCache" />
       <item itemvalue="TestNG.FileChannelTest.testCreate" />
       <item itemvalue="TestNG.FileChannelTest" />
+      <item itemvalue="TestNG.FinalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FinalTest" />
         <item itemvalue="TestNG.FileChannelTest" />
         <item itemvalue="TestNG.FileChannelTest.testCreate" />
         <item itemvalue="TestNG.IntegerTest.testModifyCache" />
         <item itemvalue="TestNG.IntegerTest.testCache" />
-        <item itemvalue="TestNG.IntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -576,16 +579,13 @@
       <workItem from="1541581446043" duration="2622000" />
       <workItem from="1541585749073" duration="226000" />
       <workItem from="1541991218588" duration="10587000" />
+      <workItem from="1542158452302" duration="1396000" />
+      <workItem from="1542271542538" duration="1956000" />
+      <workItem from="1542348886340" duration="8417000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileChannelTest_testCreate - 2018.11.12 at 16h 55m 00s.xml">
-      <configuration name="FileChannelTest.testCreate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FileChannelTest_testCreate - 2018.11.12 at 16h 58m 46s.xml">
-      <configuration name="FileChannelTest.testCreate" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FileChannelTest - 2018.11.12 at 16h 59m 03s.xml">
       <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
@@ -610,14 +610,20 @@
     <history-entry file="FileChannelTest - 2018.11.12 at 17h 05m 46s.xml">
       <configuration name="FileChannelTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FinalTest - 2018.11.16 at 16h 41m 55s.xml">
+      <configuration name="FinalTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FinalTest - 2018.11.16 at 16h 43m 59s.xml">
+      <configuration name="FinalTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69920000" />
+    <option name="totallyTimeSpent" value="81689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -626,13 +632,13 @@
       <window_info id="Designer" order="6" />
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32917467" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35604605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39548576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3192436" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.31861803" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289183" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3289183" />
       <window_info anchor="bottom" id="运行" order="10" />
@@ -641,7 +647,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24967062" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24946696" />
       <window_info anchor="right" id="控制板" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -700,44 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/group/GroupRegularExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/group-regular.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/group-method.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/group-partial.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/depend/DependencyTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/dependency.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng/dependency-group.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -885,13 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="1055" column="42" selection-start-line="1055" selection-start-column="42" selection-end-line="1055" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Throwable.java" />
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -945,10 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="47" column="28" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="28" />
-          <folding>
-            <element signature="e#9433#9434#0" expanded="true" />
-            <element signature="e#9458#9459#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,9 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,13 +973,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/CharSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-859">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/StringUTF16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="290" column="31" selection-start-line="290" selection-start-column="31" selection-end-line="290" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="197" column="41" lean-forward="true" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
