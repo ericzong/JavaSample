@@ -2,6 +2,11 @@ package com.ericzong.java.sample.syntax;
 
 import org.testng.annotations.Test;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
 public class FinalTest {
 
     private static final int i = 42;    // 静态常量
@@ -19,6 +24,25 @@ public class FinalTest {
         System.out.println(k);
         System.out.println(p);
         System.out.println(q);
+    }
+
+    interface InterfaceField {
+        int implicitlyFinal = 42;       // 隐式 final，接口中的域
+    }
+
+    @SuppressWarnings("unused")
+    class MyClass implements InterfaceField {
+
+        public void test() {
+            try(InputStream implicitlyFinalResource = new FileInputStream("")) { // 隐式 final，TWR 资源
+                System.out.println(implicitlyFinal);
+                System.out.println(implicitlyFinalResource);
+            } catch (FileNotFoundException | RuntimeException implicitlyFinalException) { // 隐式 final，多重 catch 异常参数
+                implicitlyFinalException.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
 }
