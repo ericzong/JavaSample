@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +19,7 @@
     <session id="1891044269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.20" value="2" />
@@ -29,27 +29,28 @@
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="6374" />
+          <entry key="java" value="6488" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6374" />
+          <entry key="JAVA" value="6488" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="63" />
+          <entry key="java" value="65" />
           <entry key="project" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -57,7 +58,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="65" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -138,10 +139,10 @@
         <option value="$PROJECT_DIR$/src/main/java/StaticTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DefaultClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/DefaultPkgClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/IntegerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" />
       </list>
     </option>
   </component>
@@ -283,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -291,18 +293,52 @@
               <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="syntax" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542605885559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542966398000" />
     <property name="last_opened_file_path" value="D:/program/scoop/apps/git/current/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -337,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FinalTest">
+  <component name="RunManager" selected="Application.StaticTest">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -365,6 +401,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.StaticTest" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -425,34 +474,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerTest.testCache" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.IntegerTest" />
-      <option name="METHOD_NAME" value="testCache" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -client -Djava.lang.Integer.IntegerCache.high=200" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IntegerTest.testModifyCache" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
@@ -498,19 +519,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.IntegerTest.testCache" />
       <item itemvalue="TestNG.IntegerTest.testModifyCache" />
       <item itemvalue="TestNG.FileChannelTest.testCreate" />
       <item itemvalue="TestNG.FileChannelTest" />
       <item itemvalue="TestNG.FinalTest" />
+      <item itemvalue="Application.StaticTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticTest" />
         <item itemvalue="TestNG.FinalTest" />
         <item itemvalue="TestNG.FileChannelTest" />
         <item itemvalue="TestNG.FileChannelTest.testCreate" />
         <item itemvalue="TestNG.IntegerTest.testModifyCache" />
-        <item itemvalue="TestNG.IntegerTest.testCache" />
       </list>
     </recent_temporary>
   </component>
@@ -547,6 +568,7 @@
       <workItem from="1542271542538" duration="1956000" />
       <workItem from="1542348886340" duration="8417000" />
       <workItem from="1542589876466" duration="6715000" />
+      <workItem from="1542952889678" duration="6957000" />
     </task>
     <servers />
   </component>
@@ -583,12 +605,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88404000" />
+    <option name="totallyTimeSpent" value="95361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21215352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -598,13 +620,13 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32917467" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35604605" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.35604605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39548576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.31861803" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32821497" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.35604605" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32725528" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3289183" />
       <window_info anchor="bottom" id="运行" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32938388" />
@@ -837,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/TryResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -981,6 +996,17 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#953#980#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,9 +1,6 @@
 package com.ericzong.java.sample.syntax;
-
+// 静态导入，可导入静态成员，这里导入的是静态方法
 import static com.ericzong.java.sample.syntax.StaticTest.StaticClass.test;
-// 不能导入无名包中的类，也不能静态导入其静态成员
-// import DefaultPkgClass;
-// import static DefaultPkgClass.staticMethod
 
 public class StaticTest {
 
@@ -11,15 +8,16 @@ public class StaticTest {
         test();
     }
 
+    // 静态成员类，嵌套类的一种
     public static class StaticClass {
-        public static final int number;
+        public static final int test; // 静态变量
 
-        static {
-            number = 42;
+        static { // 静态初始化块
+            test = 42;
         }
 
-        public static void test() {
-            System.out.println(number);
+        public static void test() { // 静态方法
+            System.out.println(test);
         }
     }
 }
