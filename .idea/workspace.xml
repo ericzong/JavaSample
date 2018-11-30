@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_junrar_junrar_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_vfs2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/zip/UnzipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/zip/test.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/zip/test.lzh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/zip/test.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/zip/test.tar.bz2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/zip/test.tar.xz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/zip/test.wim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/zip/test.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/zip/test.lzh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/zip/test.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/zip/test.tar.bz2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/zip/test.tar.xz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/zip/test.wim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,53 +39,73 @@
     <session id="1891044269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="6488" />
+          <entry key="java" value="7014" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6488" />
+          <entry key="JAVA" value="11546" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="115" />
+          <entry key="XML" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="65" />
+          <entry key="java" value="66" />
           <entry key="project" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="4" />
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="65" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="79" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/zip/UnzipTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="method#testUn7z#0;class#UnzipTest#0" />
+                <element signature="method#testUnTar#0;class#UnzipTest#0" />
+                <element signature="method#testUnBz2#0;class#UnzipTest#0" />
+                <element signature="method#testUnGz#0;class#UnzipTest#0" />
+                <element signature="method#testUnGz#1;class#UnzipTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,7 +130,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
-    <option name="SCOPE" value="This Class" />
+    <option name="SCOPE" value="All" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -128,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/OptionalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/fastjson/FastJsonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/ClassNameTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/VoldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/VoidTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/BreakContinue.java" />
@@ -143,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/zip/UnzipTest.java" />
       </list>
     </option>
   </component>
@@ -164,11 +205,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="185" />
-    <option name="y" value="364" />
-    <option name="width" value="1578" />
-    <option name="height" value="1040" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="371" />
+    <option name="y" value="34" />
+    <option name="width" value="1322" />
+    <option name="height" value="1083" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -316,17 +363,15 @@
               <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaSample" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaSample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="syntax" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="zip" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,16 +380,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
+    <property name="SearchEverywhereHistoryKey" value="Archive&#9;PSI&#9;JAVA://jdk.tools.jlink.internal.Archive&#10;BZip2&#9;FILE&#9;jar://E:/zonglu/workspace/maven/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/ant/taskdefs/BZip2.java&#10;FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542966398000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543572688972" />
     <property name="last_opened_file_path" value="D:/program/scoop/apps/git/current/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3080292" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -354,11 +399,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\test\resources\zip" />
+      <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\main\resources\zip" />
+      <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\test\resources" />
       <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\main\resources" />
       <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\main\java\com\ericzong\java\sample\tools\cglib" />
-      <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\test\resources\testng" />
-      <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\main\java\com\ericzong\java\sample\tools\testng\factory" />
-      <recent name="E:\zonglu\workspace\git\mine\JavaSample\src\main\java\com\ericzong\java\sample\tools\testng\depend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,7 +418,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticTest">
+  <component name="RunManager" selected="TestNG.UnzipTest.testUnRar">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -402,53 +447,23 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.StaticTest" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileChannelTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnzipTest.testUn7z" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.api.io.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.tools.zip.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api.io" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.io.FileChannelTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileChannelTest.testCreate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.api.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api.io" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.io.FileChannelTest" />
-      <option name="METHOD_NAME" value="testCreate" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools.zip" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.zip.UnzipTest" />
+      <option name="METHOD_NAME" value="testUn7z" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -457,16 +472,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnzipTest.testUnBz2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.tools.zip.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.FinalTest" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools.zip" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.zip.UnzipTest" />
+      <option name="METHOD_NAME" value="testUnBz2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -474,27 +491,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerTest.testModifyCache" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnzipTest.testUnGz" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.syntax.*" />
+          <option name="PATTERN" value="com.ericzong.java.sample.tools.zip.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.syntax" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.syntax.IntegerTest" />
-      <option name="METHOD_NAME" value="testModifyCache" />
-      <option name="GROUP_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools.zip" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.zip.UnzipTest" />
+      <option name="METHOD_NAME" value="testUnGz" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnzipTest.testUnRar" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.tools.zip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools.zip" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.zip.UnzipTest" />
+      <option name="METHOD_NAME" value="testUnRar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnzipTest.testUnXz" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.tools.zip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.tools.zip" />
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.tools.zip.UnzipTest" />
+      <option name="METHOD_NAME" value="testUnXz" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -519,19 +566,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.IntegerTest.testModifyCache" />
-      <item itemvalue="TestNG.FileChannelTest.testCreate" />
-      <item itemvalue="TestNG.FileChannelTest" />
-      <item itemvalue="TestNG.FinalTest" />
-      <item itemvalue="Application.StaticTest" />
+      <item itemvalue="TestNG.UnzipTest.testUnBz2" />
+      <item itemvalue="TestNG.UnzipTest.testUnGz" />
+      <item itemvalue="TestNG.UnzipTest.testUnXz" />
+      <item itemvalue="TestNG.UnzipTest.testUn7z" />
+      <item itemvalue="TestNG.UnzipTest.testUnRar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticTest" />
-        <item itemvalue="TestNG.FinalTest" />
-        <item itemvalue="TestNG.FileChannelTest" />
-        <item itemvalue="TestNG.FileChannelTest.testCreate" />
-        <item itemvalue="TestNG.IntegerTest.testModifyCache" />
+        <item itemvalue="TestNG.UnzipTest.testUnRar" />
+        <item itemvalue="TestNG.UnzipTest.testUn7z" />
+        <item itemvalue="TestNG.UnzipTest.testUnXz" />
+        <item itemvalue="TestNG.UnzipTest.testUnGz" />
+        <item itemvalue="TestNG.UnzipTest.testUnBz2" />
       </list>
     </recent_temporary>
   </component>
@@ -569,48 +616,51 @@
       <workItem from="1542348886340" duration="8417000" />
       <workItem from="1542589876466" duration="6715000" />
       <workItem from="1542952889678" duration="6957000" />
+      <workItem from="1543493767727" duration="2116000" />
+      <workItem from="1543549024929" duration="45000" />
+      <workItem from="1543549453135" duration="17397000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileChannelTest - 2018.11.12 at 16h 59m 03s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 47m 35s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FileChannelTest - 2018.11.12 at 17h 00m 00s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 49m 08s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FileChannelTest - 2018.11.12 at 17h 00m 44s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 49m 36s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FileChannelTest - 2018.11.12 at 17h 02m 41s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 50m 27s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FileChannelTest - 2018.11.12 at 17h 04m 15s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 51m 34s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FileChannelTest - 2018.11.12 at 17h 04m 43s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 56m 31s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FileChannelTest - 2018.11.12 at 17h 05m 05s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 56m 59s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FileChannelTest - 2018.11.12 at 17h 05m 46s.xml">
-      <configuration name="FileChannelTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 57m 42s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FinalTest - 2018.11.16 at 16h 41m 55s.xml">
-      <configuration name="FinalTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 58m 34s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FinalTest - 2018.11.16 at 16h 43m 59s.xml">
-      <configuration name="FinalTest" configurationId="TestNG" />
+    <history-entry file="UnzipTest_testUnRar - 2018.11.30 at 17h 58m 53s.xml">
+      <configuration name="UnzipTest.testUnRar" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95361000" />
+    <option name="totallyTimeSpent" value="114919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="371" y="34" width="1322" height="1083" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3280507" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -620,8 +670,8 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32917467" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.35604605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39548576" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.29399368" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39473686" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -634,11 +684,11 @@
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24967062" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23137876" />
       <window_info anchor="right" id="控制板" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -692,70 +742,56 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>new String(header.getFileNameString().getBytes(Charset.forName(&quot;GBK&quot;)), &quot;GBK&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new String(header.getFileNameString().getBytes(Charset.forName(&quot;GBK&quot;)), &quot;UTF-8&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new String(header.getFileNameString().getBytes(Charset.forName(&quot;UTF-8&quot;)), &quot;GBK&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new String(header.getFileNameByteArray(), &quot;UTF-8&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new String(header.getFileNameByteArray(), &quot;GBK&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>header.getFileNameByteArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>header.getFileNameString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>header.getFileNameW()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Charset.defaultCharset()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/testng/factory/ConstructorFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/factory.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/factory-constructor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/group-meta.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/group.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/data-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/data-provider-method.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/data-provider-static.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/LogBackTest.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Supplier.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Optional.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1-sources.jar!/org/testng/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="766" column="22" selection-start-line="766" selection-start-column="22" selection-end-line="766" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -819,20 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="580" selection-start-line="580" selection-end-line="580" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Throwable.java" />
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
@@ -876,34 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/net/DatagramSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/nio/channels/FileLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="292" column="7" lean-forward="true" selection-start-line="292" selection-start-column="7" selection-end-line="292" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="1061" column="20" lean-forward="true" selection-start-line="1061" selection-start-column="17" selection-end-line="1061" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/net/DatagramSocketImpl.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/nio/channels/FileLock.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/nio/channels/FileChannel.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/IntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -911,84 +909,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/sun/nio/ch/FileChannelImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="440" column="34" lean-forward="true" selection-start-line="440" selection-start-column="34" selection-end-line="440" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/DataOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/DataInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="157" column="10" selection-start-line="157" selection-start-column="10" selection-end-line="157" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/RandomAccessFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/sun/nio/ch/FileChannelImpl.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/FileOutputStream.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/DataOutput.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/DataInput.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/RandomAccessFile.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/CharSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-859">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/StringUTF16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="290" column="31" selection-start-line="290" selection-start-column="31" selection-end-line="290" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="197" column="41" lean-forward="true" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="63" column="47" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/CharSequence.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/StringUTF16.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/System.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/Integer.java" />
+    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/FileInputStream.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -1007,6 +939,131 @@
           <folding>
             <element signature="e#214#215#0" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="260" column="25" selection-start-line="260" selection-start-column="25" selection-end-line="260" selection-end-column="25" />
+          <folding>
+            <element signature="e#9921#9922#0" expanded="true" />
+            <element signature="e#9967#9968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="906" column="23" selection-start-line="906" selection-start-column="23" selection-end-line="906" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/io/BufferedOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="22" />
+          <folding>
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/tar/TarInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/zip/ZipFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/ant/taskdefs/BZip2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-604">
+          <folding>
+            <element signature="e#0#2547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="218" column="11" selection-start-line="218" selection-start-column="11" selection-end-line="218" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar!/org/apache/commons/compress/archivers/sevenz/SevenZFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="1032" column="54" selection-start-line="1032" selection-start-column="17" selection-end-line="1032" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/jdk.jdeps/com/sun/tools/jdeps/Archive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/jdk.jlink/jdk/tools/jlink/internal/Archive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="99" column="30" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/junrar/junrar/3.0.0/junrar-3.0.0.jar!/com/github/junrar/Archive.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/zip/UnzipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="method#testUn7z#0;class#UnzipTest#0" />
+            <element signature="method#testUnTar#0;class#UnzipTest#0" />
+            <element signature="method#testUnBz2#0;class#UnzipTest#0" />
+            <element signature="method#testUnGz#0;class#UnzipTest#0" />
+            <element signature="method#testUnGz#1;class#UnzipTest#0" />
           </folding>
         </state>
       </provider>
@@ -1051,7 +1108,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Java 11</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1068,6 +1125,7 @@
             <option name="proportions">
               <list>
                 <option value="0.3080292" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
