@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/SetTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,9 @@
     <session id="1891044269">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.38" value="1" />
@@ -35,8 +36,8 @@
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.69" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.69" value="2" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,7 +49,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13384" />
+          <entry key="JAVA" value="13561" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="135" />
         </counts>
@@ -62,9 +63,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="5" />
           <entry key="Eclipse" value="1" />
-          <entry key="JAVA" value="123" />
+          <entry key="JAVA" value="141" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -72,16 +73,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/SetTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="691">
+              <caret line="266" column="38" selection-start-line="266" selection-start-column="27" selection-end-line="266" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
+                <element signature="docComment;class#ArrayList#0" />
+                <element signature="e#7333#7334#0" expanded="true" />
+                <element signature="e#7401#7402#0" expanded="true" />
+                <element signature="e#10106#10107#0" expanded="true" />
+                <element signature="e#10143#10144#0" expanded="true" />
+                <element signature="e#15231#15232#0" expanded="true" />
+                <element signature="e#15286#15287#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/ListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="82" column="23" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/concurrent/CopyOnWriteArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="100" column="31" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -103,6 +135,9 @@
       <find>out</find>
       <find>equals</find>
       <find>Oracle</find>
+      <find>DEFAULTCAPACITY_EMPTY_ELEMENTDATA</find>
+      <find>ensureCapacity</find>
+      <find>MAX</find>
     </findStrings>
     <dirStrings>
       <dir>E:\zonglu\workspace\git\mine\JavaSample\src\main\java</dir>
@@ -168,6 +203,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/zip/UnzipTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/ListTest.java" />
       </list>
     </option>
   </component>
@@ -356,7 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -414,13 +449,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="J&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/JumboEnumSet.java&#10;Enum&#9;PSI&#9;JAVA://java.lang.Enum&#10;EnumSet&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/EnumSet.java&#10;TreeSet&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/TreeSet.java&#10;hash&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedHashSet.java&#10;linkedhashset&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedHashSet.java&#10;sorted&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/SortedSet.java&#10;abstract&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/AbstractSet.java&#10;abstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Set&#9;PSI&#9;JAVA://java.util.Set&#10;Archive&#9;PSI&#9;JAVA://jdk.tools.jlink.internal.Archive&#10;BZip2&#9;FILE&#9;jar://E:/zonglu/workspace/maven/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/ant/taskdefs/BZip2.java&#10;FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
+    <property name="SearchEverywhereHistoryKey" value="Arrayl&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/ArrayList.java&#10;de*list&#9;PSI&#9;JAVA://com.sun.org.apache.xalan.internal.xsltc.dom.ArrayNodeListIterator&#10;List&#9;FILE&#9;jrt://D:/program/scoop/apps/openjdk/current!/java.base/java/util/List.class&#10;J&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/JumboEnumSet.java&#10;Enum&#9;PSI&#9;JAVA://java.lang.Enum&#10;EnumSet&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/EnumSet.java&#10;TreeSet&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/TreeSet.java&#10;hash&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedHashSet.java&#10;linkedhashset&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedHashSet.java&#10;sorted&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/SortedSet.java&#10;abstract&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/AbstractSet.java&#10;abstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Set&#9;PSI&#9;JAVA://java.util.Set&#10;Archive&#9;PSI&#9;JAVA://jdk.tools.jlink.internal.Archive&#10;BZip2&#9;FILE&#9;jar://E:/zonglu/workspace/maven/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/ant/taskdefs/BZip2.java&#10;FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543919069753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544177043609" />
     <property name="last_opened_file_path" value="D:/program/scoop/apps/git/current/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -455,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SetTest.testTreeSetComparator">
+  <component name="RunManager" selected="Application.ListTest">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -483,6 +519,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.collection.ListTest" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericzong.java.sample.api.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -520,25 +569,6 @@
       <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api.collection" />
       <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.collection.SetTest" />
       <option name="METHOD_NAME" value="testRemoveWhileForEach" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetTest.testRemoveWhileIterate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericzong.java.sample.api.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ericzong.java.sample.api.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ericzong.java.sample.api.collection.SetTest" />
-      <option name="METHOD_NAME" value="testRemoveWhileIterate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -603,19 +633,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SetTest.testRemoveWhileIterate" />
       <item itemvalue="TestNG.SetTest.testIteratorRemove" />
       <item itemvalue="TestNG.SetTest.testRemoveWhileForEach" />
       <item itemvalue="TestNG.SetTest.testTreeSetNoComparable" />
       <item itemvalue="TestNG.SetTest.testTreeSetComparator" />
+      <item itemvalue="Application.ListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListTest" />
         <item itemvalue="TestNG.SetTest.testTreeSetComparator" />
         <item itemvalue="TestNG.SetTest.testTreeSetNoComparable" />
         <item itemvalue="TestNG.SetTest.testRemoveWhileForEach" />
         <item itemvalue="TestNG.SetTest.testIteratorRemove" />
-        <item itemvalue="TestNG.SetTest.testRemoveWhileIterate" />
       </list>
     </recent_temporary>
   </component>
@@ -658,6 +688,8 @@
       <workItem from="1543549453135" duration="17397000" />
       <workItem from="1543817029023" duration="13159000" />
       <workItem from="1543907848919" duration="11136000" />
+      <workItem from="1543997990514" duration="2952000" />
+      <workItem from="1544147683330" duration="11791000" />
     </task>
     <servers />
   </component>
@@ -694,12 +726,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139214000" />
+    <option name="totallyTimeSpent" value="153957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15671642" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -708,9 +740,9 @@
       <window_info id="Designer" order="6" />
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917467" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.29366603" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39473686" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39443377" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -723,7 +755,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24967062" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23134328" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.13006397" />
       <window_info anchor="right" id="控制板" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -773,6 +805,22 @@
           <line>11</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/ArrayList.java</url>
+          <line>151</line>
+          <properties class="java.util.ArrayList" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/ArrayList.java</url>
+          <line>253</line>
+          <properties class="java.util.ArrayList" method="newCapacity">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -831,68 +879,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/RandomAccessFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/CharSequence.java" />
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/StringUTF16.java" />
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/System.java" />
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/String.java" />
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/lang/Integer.java" />
-    <entry file="jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/FileInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="906" column="23" selection-start-line="906" selection-start-column="23" selection-end-line="906" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/io/BufferedOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/tar/TarInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/zip/ZipFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/ant/taskdefs/BZip2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="218" column="11" selection-start-line="218" selection-start-column="11" selection-end-line="218" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar!/org/apache/commons/compress/archivers/sevenz/SevenZFile.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -963,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="255" column="31" lean-forward="true" selection-start-line="255" selection-start-column="31" selection-end-line="255" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/NavigableSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1005,13 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="4327" column="25" selection-start-line="4327" selection-start-column="25" selection-end-line="4327" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/SortedSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1037,10 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
-          <folding>
-            <element signature="e#6874#6875#0" expanded="true" />
-            <element signature="e#6910#6911#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,13 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-          <folding>
-            <element signature="docComment;class#Set#0" />
-            <element signature="e#20674#20675#0" expanded="true" />
-            <element signature="e#20728#20729#0" expanded="true" />
-            <element signature="e#23084#23085#0" expanded="true" />
-            <element signature="e#23154#23155#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,18 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="156" column="66" lean-forward="true" selection-start-line="156" selection-start-column="66" selection-end-line="156" selection-end-column="66" />
-          <folding>
-            <element signature="e#5875#5876#0" expanded="true" />
-            <element signature="e#5939#5940#0" expanded="true" />
-            <element signature="e#7493#7494#0" expanded="true" />
-            <element signature="e#7539#7540#0" expanded="true" />
-            <element signature="e#8994#8995#0" expanded="true" />
-            <element signature="e#9042#9043#0" expanded="true" />
-            <element signature="e#9655#9656#0" expanded="true" />
-            <element signature="e#9700#9701#0" expanded="true" />
-            <element signature="e#14141#14142#0" expanded="true" />
-            <element signature="e#14210#14211#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,15 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="1523" column="37" lean-forward="true" selection-start-line="1523" selection-start-column="37" selection-end-line="1523" selection-end-column="37" />
-          <folding>
-            <element signature="docComment;class#HashMap#0" />
-            <element signature="e#24520#24521#0" expanded="true" />
-            <element signature="e#24574#24575#0" expanded="true" />
-            <element signature="e#25215#25216#0" expanded="true" />
-            <element signature="e#25280#25281#0" expanded="true" />
-            <element signature="e#41108#41109#0" expanded="true" />
-            <element signature="e#41158#41159#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,10 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="1074" column="5" lean-forward="true" selection-start-line="1074" selection-start-column="5" selection-end-line="1074" selection-end-column="5" />
-          <folding>
-            <element signature="e#43075#43076#0" expanded="true" />
-            <element signature="e#43109#43110#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,13 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="253" column="19" selection-start-line="253" selection-start-column="19" selection-end-line="253" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;class#TreeSet#0" />
-            <element signature="e#6533#6534#0" expanded="true" />
-            <element signature="e#6580#6581#0" expanded="true" />
-            <element signature="e#10603#10604#0" expanded="true" />
-            <element signature="e#10649#10650#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,10 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding>
-            <element signature="e#4102#4103#0" expanded="true" />
-            <element signature="e#4132#4133#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,15 +1115,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/jnotify/JnotifyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/xs/StringList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" selection-start-line="30" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="48" selection-start-line="48" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="89" selection-start-line="89" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="2397" column="17" selection-start-line="2397" selection-start-column="17" selection-end-line="2397" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.xml/com/sun/org/apache/xalan/internal/xsltc/dom/ArrayNodeListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://D:/program/scoop/apps/openjdk/current!/java.base/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/RandomAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="59" selection-start-line="59" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="3718" column="35" selection-start-line="3718" selection-start-column="28" selection-end-line="3718" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="100" column="31" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="82" column="23" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="289" column="16" lean-forward="true" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/zip/ZipFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1425" column="18" selection-start-line="1425" selection-start-column="18" selection-end-line="1425" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="266" column="38" selection-start-line="266" selection-start-column="27" selection-end-line="266" selection-end-column="38" />
+          <folding>
+            <element signature="docComment;class#ArrayList#0" />
+            <element signature="e#7333#7334#0" expanded="true" />
+            <element signature="e#7401#7402#0" expanded="true" />
+            <element signature="e#10106#10107#0" expanded="true" />
+            <element signature="e#10143#10144#0" expanded="true" />
+            <element signature="e#15231#15232#0" expanded="true" />
+            <element signature="e#15286#15287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
         </state>
       </provider>
     </entry>
