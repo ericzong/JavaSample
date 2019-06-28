@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84cad2-220c-4d3b-af8e-173c7d3a5e84" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/string/StringJoinerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,26 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/string/StringJoinerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="588">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/StringJoiner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
-              <folding>
-                <element signature="e#4198#4199#0" expanded="true" />
-                <element signature="e#4237#4238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,12 +115,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/io/FileChannelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/FinalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/syntax/StaticTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/tools/zip/UnzipTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/SetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/ListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/collection/MapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/string/StringJoinerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -148,10 +135,39 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -316,6 +332,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,20 +390,19 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="collection&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Collection.java&#10;EnumMa&#9;PSI&#9;JAVA://java.util.EnumMap&#10;Tree&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/TreeMap.java&#10;HashMap&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/HashMap.java&#10;Hashmap&#9;null&#9;null&#10;Stack&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Stack.java&#10;Vector&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Vector.java&#10;Collection&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Collection.java&#10;Arrayl&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/ArrayList.java&#10;de*list&#9;PSI&#9;JAVA://com.sun.org.apache.xalan.internal.xsltc.dom.ArrayNodeListIterator&#10;List&#9;FILE&#9;jrt://D:/program/scoop/apps/openjdk/current!/java.base/java/util/List.class&#10;J&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/JumboEnumSet.java&#10;Enum&#9;PSI&#9;JAVA://java.lang.Enum&#10;EnumSet&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/EnumSet.java&#10;TreeSet&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/TreeSet.java&#10;hash&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedHashSet.java&#10;linkedhashset&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedHashSet.java&#10;sorted&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/SortedSet.java&#10;abstract&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/AbstractSet.java&#10;abstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Set&#9;PSI&#9;JAVA://java.util.Set&#10;Archive&#9;PSI&#9;JAVA://jdk.tools.jlink.internal.Archive&#10;BZip2&#9;FILE&#9;jar://E:/zonglu/workspace/maven/org/apache/ant/ant/1.9.6/ant-1.9.6-sources.jar!/org/apache/tools/ant/taskdefs/BZip2.java&#10;FileCh&#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;getFileDe&#9;PSI&#9;JAVA://java.net.DatagramSocketImpl#getFileDescriptor&#10;File&#9;FILE&#9;jar://D:/program/scoop/apps/openjdk11/current/lib/src.zip!/java.base/java/io/File.java&#10;parseObject&#9;PSI&#9;JAVA://com.alibaba.fastjson.JSON#parseObject" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559542419230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561690957570" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3080292" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -618,6 +634,7 @@
       <workItem from="1545295467877" duration="1185000" />
       <workItem from="1546566978143" duration="18764000" />
       <workItem from="1559532711269" duration="2434000" />
+      <workItem from="1561688213919" duration="2799000" />
     </task>
     <servers />
   </component>
@@ -654,12 +671,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199583000" />
+    <option name="totallyTimeSpent" value="202382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.221875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
       <window_info id="Structure" order="1" weight="0.24967062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -667,7 +684,6 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="设计师" order="7" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.28694817" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.29348883" />
@@ -675,14 +691,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.35604605" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.3557047" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32725528" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3289183" />
       <window_info anchor="bottom" id="运行" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32938388" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24967062" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1296875" />
@@ -693,6 +709,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info active="true" anchor="right" id="Maven" order="10" visible="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -853,13 +870,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/LinkedHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
@@ -1276,16 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/string/StringJoinerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/scoop/apps/openjdk/current/lib/src.zip!/java.base/java/util/StringJoiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1293,6 +1293,23 @@
           <folding>
             <element signature="e#4198#4199#0" expanded="true" />
             <element signature="e#4237#4238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzong/java/sample/api/string/StringJoinerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1337,7 +1354,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>JDK</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
