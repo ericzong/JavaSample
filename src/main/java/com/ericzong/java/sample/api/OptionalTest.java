@@ -96,17 +96,49 @@ public class OptionalTest {
     @Test
     public void testIfPresent() {
         var empty = Optional.empty();
-        
+        empty.ifPresent(value -> {Assert.assertTrue(value != null);});
+
+        var opt = Optional.of("test");
+        opt.ifPresent(value -> {Assert.assertTrue(value != null);});
     }
 
     @Test
-    public void testOrElseGet() {
-        final List<String> ls = new ArrayList<>();
-        Optional.of("test").orElseGet(() -> {
-            ls.add("test");
-            return ls.get(0);
-        });
-        Assert.assertTrue(ls.isEmpty());
+    public void testIfPresentOrNot() {
+        var empty = Optional.empty();
+        final boolean isEmpty = true;
+        empty.ifPresentOrElse(value -> {Assert.assertTrue(value != null);},
+                () -> {Assert.assertTrue(isEmpty);});
+
+        var opt = Optional.of("test");
+        final boolean isPresent = true;
+        opt.ifPresentOrElse(value -> {Assert.assertTrue(value != null);},
+                () -> {Assert.assertFalse(isPresent);});
+    }
+
+    @Test
+    public void testOrElseGetElse() {
+        var empty = Optional.empty();
+        var value = empty.orElseGet(() -> "test");
+        Assert.assertEquals(value, "test");
+    }
+
+    /**
+     * 抛出空指针的条件是指定的 supplier 为 null，而非其返回为 null
+     */
+    @Test(expectedExceptions = NullPointerException.class)
+    public void testOrElseGetNull() {
+        var empty = Optional.empty();
+
+        Assert.assertNull(empty.orElseGet(() -> null));
+
+        empty.orElseGet(null);
+    }
+
+    @Test
+    public void testOrElseGetValue() {
+        var opt = Optional.of("non-null");
+        var value = opt.orElseGet(() -> "test");
+        Assert.assertEquals(value, "non-null");
     }
 
     @Test(expectedExceptions = {IllegalArgumentException.class})
@@ -115,18 +147,81 @@ public class OptionalTest {
         opt.orElseThrow(() -> new IllegalArgumentException());
     }
 
+
     @Test
-    public void testMap() {
-        Optional<String> opt = Optional.of("test");
-        String result = opt.map(e -> e + " map").get();
-        Assert.assertEquals(result, "test map");
+    public void testOrNonNullValue() {
+        var opt = Optional.of("non-null");
+        var returnOpt = opt.or(() -> Optional.empty());
+        Assert.assertNotEquals(returnOpt, Optional.empty());
     }
 
     @Test
-    public void testFlatMap() {
-        Optional<String> originOpt = Optional.ofNullable("test");
-        String result = Optional.ofNullable(originOpt).flatMap(o -> o).orElse("default");
-        Assert.assertEquals(result, "test");
+    public void testOrNullValue() {
+        var empty = Optional.empty();
+        var returnOpt = empty.or(() -> Optional.of("return"));
+        Assert.assertEquals(returnOpt, Optional.of("return"));
+    }
+
+    @Test(expectedExceptions = NullPointerException.class)
+    public void testOrNullSupplier() {
+        Optional.empty().or(null);
+    }
+
+    @Test(expectedExceptions = NullPointerException.class)
+    public void testOrNullSupplierReturnNull() {
+        Optional.empty().or(() -> null);
+    }
+
+    @Test
+    public void testMapEmpty() {
+        var empty = Optional.empty();
+        Optional opt = empty.map(e -> null);
+        Assert.assertEquals(opt, Optional.empty());
+        opt = empty.map(e -> "test");
+        Assert.assertEquals(opt, Optional.empty());
+    }
+
+    @Test
+    public void testMapPresent() {
+        Optional opt = Optional.of("test");
+        Optional returnOpt = opt.map(e -> "non-null: " + e);
+        Assert.assertEquals(returnOpt, Optional.of("non-null: test"));
+        Optional nullOpt = opt.map(e -> null);
+        Assert.assertEquals(nullOpt, Optional.empty());
+    }
+
+    @Test(expectedExceptions = NullPointerException.class)
+    public void testMapNullSupplier() {
+        Optional opt = Optional.empty();
+        opt.map(null);
+    }
+
+    @Test
+    public void testFlatMapEmpyt() {
+        Optional empty = Optional.empty();
+        Optional opt = empty.flatMap(e -> null);
+        Assert.assertEquals(opt, Optional.empty());
+        opt = empty.map(e -> "test");
+        Assert.assertEquals(opt, Optional.empty());
+    }
+
+    @Test
+    public void testFlatMapPresent() {
+        Optional originOpt = Optional.ofNullable("test");
+        Optional result = originOpt.flatMap(value -> Optional.of("non-null: " + value));
+        Assert.assertEquals(result, Optional.of("non-null: test"));
+    }
+
+    @Test(expectedExceptions = NullPointerException.class)
+    public void testFlatMapNullSupplier() {
+        Optional opt = Optional.empty();
+        opt.flatMap(null);
+    }
+
+    @Test(expectedExceptions = NullPointerException.class)
+    public void testFlatMapNullSupplierReturnNull() {
+        Optional empty = Optional.ofNullable("test");
+        empty.flatMap(e -> null);
     }
 
     @Test
